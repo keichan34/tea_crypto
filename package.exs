@@ -1,9 +1,11 @@
 defmodule TeaCrypto.Mixfile do
   use Mix.Project
 
+  @version File.read!("VERSION") |> String.strip
+
   def project do
     [app: :tea_crypto,
-     version: "0.0.2",
+     version: @version,
      elixir: "~> 1.0",
      description: description,
      package: package,
