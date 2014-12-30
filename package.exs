@@ -3,7 +3,8 @@ defmodule TeaCrypto.Mixfile do
 
   def project do
     [app: :tea_crypto,
-     version: "0.0.1",
+     version: "0.0.2",
+     elixir: "~> 1.0",
      description: description,
      package: package,
      deps: deps]
